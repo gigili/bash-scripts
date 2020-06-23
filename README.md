@@ -1,5 +1,5 @@
 # Bash scripts
-List of my custom-made bash scripts. I use tham on a dialy basis
+List of my custom-made bash scripts.
 
 # create-vhost
 
