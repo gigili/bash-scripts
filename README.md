@@ -8,7 +8,7 @@ A shell script that creates a new virtual host entry for you based on the url an
 To run the script simple execute the script like this:
 
 ```shell script
-create-vhost example.local /path/to/project
+./create-vhost.sh example.local /path/to/project
 ```
 
 **Note:**
@@ -35,8 +35,14 @@ On line 19: change the list of services you wish to be stopped by running the sc
 Service mssql-server status: inactive
 ``` 
 
+To run the script simple execute the script like this:
+```shell script
+./stop-services.sh
+```
 
 # NOTE 
+
+Some scripts can be moved to your preferred `/bin` directory, so you can invoke them from anywhere.
 
 **All scripts are provided as is and without any warranty. By running these scripts you acknowledge that you know what you are doing and that you understand any possible risks involved with running these scripts and will not hold the author accountable for any possible damages and/or loss of data that my happen.
 By using it, you acknowledge that you understand what these scripts do and how it may affect you in any way and take full responsibility for it.**
