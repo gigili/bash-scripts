@@ -145,7 +145,7 @@ setup_virtual_host() {
 }
 
 if [[ -z "$PROJECT_PATH" ]]; then
-	PROJECT_PATH="$PWD/$SL_PROJECT_NAME"
+	PROJECT_PATH="$PWD"
 fi
 
 if [[ -z "$VHOST_URL" ]]; then
